@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../asets/img/icono.webp" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4e36e690c4.js" crossorigin="anonymous"></script>
+    <meta name="description"
+        content="Te dejamos un formulario de contacto para que podamos comunicarnos y agendar una cita.">
+    <meta name="author" content="Araceli Rodriguez">
+    <meta name="copyright" content="Arah Rodz Beauty Studio">
+    <title>Contacto|Arah Rodz</title>
+    <style type="text/css">
+        a {
+            text-decoration: none;
+            color: rgb(216, 109, 171);
+        }
+    </style>
+</head>
+
+<header>
+    <div class="logo">
+        <a href="../index.html"><img src="../asets/img/logo-pagina.jpg" alt="logo"></a>
+    </div>
+    <!--barra de navegacion-->
+    <nav>
+        <ul class="navbar">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/servicios.html">Servicios</a></li>
+            <li><a href="../pages/listadeprecios.html">Lista de Precios</a></li>
+            <li><a href="../pages/tiendabeauty.html">Tienda Beauty</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body class="banner-contacto">
+    <main>
+        <h1 class="titulo-contacto">Arah Rodz Beauty Studio</h1>
+        <p class="datos">Horario de atención: de lunes a viernes de 10 hs a 19 hs (corrido) y los sábados de 9 hs a 13
+            hs</p>
+        <!--arranca formulario-->
+
+        <fieldset>
+            <h2 class="solicitar-turno">Solicita tu turno!</h2>
+            <section class="formulario">
+                <h2>Contacto</h2>
+                <div>
+                    <form action="Informacion-personal">
+
+                        <label for="Nombre">Nombre</label>
+                        <input class="controls" type="text" name="Nombre">
+                    </form>
+                </div>
+
+                <div>
+                    <form action="apellido"></form>
+                    <label for="apellido">Apellido</label>
+                    <input class="controls" type="text" name="Apellido">
+                    </form>
+                </div>
+
+
+                <div>
+                    <form action="edad">
+                        <label for="edad">Edad</label>
+                        <select class="controls" name="Edad">
+                            <option value="0-18">0 a 18 años</option>
+                            <option value="19-50">19 a 50 años</option>
+                            <option value="51-99">51 a 99 años</option>
+                        </select>
+                    </form>
+                </div>
+
+                <div>
+                    <form action="email">Email
+                        <label for="email"></label>
+
+                        <input class="controls" type="email" pattern=".+@globex\.com" size="30" required>
+                    </form>
+                </div>
+
+                <div>
+                    <form action="telefono">
+
+                        <label for="telefono">telefono</label>
+                        Teléfono: <input class="controls" type="tel" name="telefono"
+                            placeholder="(Código de área) Número">
+
+                </div>
+
+                <div class="row">
+                    <label class="required" for="message">Mensaje (opcional):</label>
+                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
+                    <span id="message_validation" class="error_message"></span>
+                </div>
+
+                <div>
+                    </form>
+                    <form action="enviar">
+                        <label for="enviar"></label>
+                        <input class="botons" type="button" value="enviar">
+                    </form>
+                </div>
+            </section>
+
+        </fieldset>
+        <div class="pagos">
+            <strong>
+                <p>Aceptamos todos los medios de pago.</p>
+            </strong>
+            <strong>
+                <p>3 cuotas sin interes con VISA</p>
+            </strong>
+
+        </div>
+    </main>
+
+    <!--Pie de pagina-->
+
+    <footer class="pie-pagina">
+
+        <div class="red-social">
+            <h4 class="red">Redes Sociales</h4>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100080614735242" class="f-fa-facebook"><i
+                            class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/arahrodzbeautystudio/" class="fa-fa-instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCzw1WzqoswZyGvkUP8VYQ7g" class="fa-fa-youtube"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="container-datos">
+            <div class="mapa">
+                <h4 class="ubicacion">Nuestra ubicación</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.9361491462655!2d-60.67510256018723!3d-32.95269514438499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab5fe758e1c1%3A0x1f8f939ad80799b6!2sAv.%20Pellegrini%203485%2C%20S2002QEC%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1668656793551!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contacto">
+                <h4>Contacto</h4>
+
+                <p>Encontranos en nuestra dirección de la ciudad de <strong>(Rosario)</strong>
+                <p>Pellegrini 3485</p>
+                <p>Email: arahrodzbeautystudio@gmail.com</p>
+                <p>Telefono:0341-156203460</p>
+
+            </div>
+        </div>
+        <section class="copyright">
+            <article>
+                <div>
+                    <small><b>Arah Rodz Beauty Studio</b> - Todos los derechos reservados.
+                    </small>
+
+                </div>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

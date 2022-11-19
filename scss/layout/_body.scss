@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(0deg, #db70cd 0%, #f0f0f0 100%);
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-top: 30px;
+    font-family:$background-font-family-principal;
+    color: palevioletred;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: $background-font-family-principal;
+    color: #d87093;
+    text-align: center;
+    font-size: 1.5625rem;
+    margin: 1.25rem;
+}
+

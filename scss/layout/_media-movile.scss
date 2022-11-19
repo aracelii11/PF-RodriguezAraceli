@@ -1,0 +1,307 @@
+@media (max-width:412px) {
+
+
+    header {
+        height: 170px;
+    }
+
+    .index {
+        background-image: url(../../asets/img/banner412.jpg);
+    }
+
+    .navbar {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    nav {
+        max-width: 100%;
+        width: 412px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .navbar li {
+        width: 75px;
+        height: 80px;
+        margin-right: 2px;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    .navbar li a {
+
+        width: 75px;
+        height: 80px;
+        text-align: center;
+        align-items: center;
+        margin-left: 2px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    body {
+        position: relative;
+    }
+
+    .titulo-index {
+        font-size: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .conteiner-peinado {
+        margin-top: 10px;
+    }
+
+    .titulo-peinado {
+        margin-top: 10px;
+    }
+
+    .peinado1 {
+        margin-top: 0px;
+    }
+
+    .pie-pagina {
+        max-width: 100%;
+    }
+
+    .red {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .contacto {
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .titulo-arah {
+        font-size: 25px;
+    }
+
+    .titulo-servicios {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .titulo-lavado {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .lavado {
+        flex-direction: column;
+    }
+
+    .parrafo-lavado {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .video-1 {
+        height: 250px;
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .corte {
+        flex-direction: column;
+    }
+
+    .parrafo-corte {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .titulo-corte {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .video-2 {
+        height: 250px;
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .peinado {
+        flex-direction: column;
+    }
+
+    .titulo-peinado {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .parrafo-peinado {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .video-3 {
+        height: 250px;
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .coloracion {
+        flex-direction: column;
+    }
+
+    .parrafo-coloracion {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .video-4 {
+        height: 250px;
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .titulo-coloracion {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .tratamiento {
+        flex-direction: column;
+    }
+
+    .parrafo-tratamiento {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .titulo-tratamiento {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .foto-tratamiento {
+        margin-left: 60px;
+        height: 240px;
+        width: 300px;
+        align-items: center;
+    }
+
+    .manicuria {
+        flex-direction: column;
+    }
+
+    .titulo-manicuria {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .parrafo-manicuria {
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .titulo-arah-precios {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+    .titulo-precios {
+        font-size: 20px;
+    }
+
+    .ul-precios {
+        font-size: 10px;
+        line-height: 10px;
+        margin-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 250px;
+        height: 300px;
+    }
+
+    .foto1-precios {
+        height: 150px;
+        width: 150px;
+        margin-right: 30px;
+        margin-top: 70px;
+    }
+
+    .ul-precios2 {
+        font-size: 10px;
+        line-height: 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 80px;
+        width: 250px;
+        height: 300px;
+        margin-bottom: 200px;
+    }
+
+    .foto2-precios {
+        height: 120px;
+        margin-left: 170px;
+
+    }
+
+    ul.precios3 {
+        font-size: 10px;
+        line-height: 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 500px;
+        width: 250px;
+        height: 300px;
+    }
+
+    .foto3-precios {
+        height: 150px;
+        width: 150px;
+    }
+
+    .titulo-tienda {
+        font-size: 30px;
+    }
+
+    .titulo-tienda-beauty{
+        font-size: 25px;
+    }
+
+    .titulo-contacto{
+        font-size: 27px;
+        margin-top: 130px;
+    }
+
+    .solicitar-turno{
+        font-size: 25px;
+    }
+
+    .pagos {
+        font-size: 25px;
+    }
+}
+
+
+
+/*sass --watch scss/style.scss css/style.css*/

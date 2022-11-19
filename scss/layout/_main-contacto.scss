@@ -1,0 +1,81 @@
+.datos {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #350226;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+}
+.banner-contacto {
+    background-image: url(../asets/img/banner-manicura-y-pedicura-oe8jmc6cwnm70kzrtxk1g7jypftcu9ltu94lvtnna8.jpg);
+    background-repeat: no-repeat;
+  }
+  
+.titulo-contacto {
+    font-family: 'Rubik Dirt', cursiva;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-shadow: 10px 10px 5px #53093d;
+    color: rgb(214, 101, 139);
+}
+
+.solicitar-turno {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #350226;
+    text-align: center;
+    padding: 30px;
+    font-size: 60px;
+    background-color: #db70cdb7;
+}
+
+.formulario {
+    width: 25rem;
+    background-color: #db70cd;
+    padding: 1.875rem;
+    margin: auto;
+    margin-top: 6.25rem;
+    margin-bottom: 7.5rem;
+    border-radius: 0.25rem;
+    font-family: sans-serif;
+    box-shadow: 0.4375rem 0.8125rem 2.3125rem #000;
+}
+
+.formulario h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(53, 2, 38);
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.pagos {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(53, 2, 38);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #db70cd7e;
+}
+
+.controls {
+    width: 100%;
+    background-color: #db70cd;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    border: 0.0625rem solid rgb(53, 2, 38);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.125rem;
+}
+
+.botons {
+    width: 100%;
+    background: rgb(53, 2, 38);
+    border: none;
+    padding: 0.75rem;
+    color: white;
+    margin: 1rem 0;
+    font-size: 1rem;
+}

@@ -1,0 +1,233 @@
+.lavado {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: #db70cd25;
+  }
+  
+  .titulo-servicios {
+    font-size: 70px;
+    color: #53093d;
+    background-color: #db70cd70;
+    margin-top: 50px;
+  }
+  
+  .titulo-arah {
+    font-family: 'Rubik Dirt', cursiva;
+    font-size: 50px;
+    color: rgba(180, 21, 127, 0.781);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .titulo-lavado {
+    color: #350226;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #db70cd70;
+  }
+  
+  .titulo-corte {
+    color: #350226;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #db70cd70;
+  }
+  
+  .titulo-peinado {
+    color: #350226;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #db70cd70;
+  }
+  
+  .titulo-coloracion {
+    color: #350226;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #db70cd70;
+  }
+  
+  .titulo-tratamiento {
+    color: #350226;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #db70cd70;
+  }
+  
+  .titulo-manicuria {
+    color: #350226;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #db70cd70;
+  }
+  
+  .corte {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  
+  .peinado {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  
+  .coloracion {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  
+  .trtamiento {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  
+  .manicuria {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  
+  .parrafo-lavado {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    line-height: 45px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    color: #350226;
+  }
+  
+  .parrafo-corte {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    line-height: 40px;
+    margin: 45px 160px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: #350226;
+  }
+  
+  .parrafo-peinado {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    line-height: 40px;
+    margin: 45px 160px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #350226;
+  }
+  
+  .parrafo-coloracion {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    line-height: 45px;
+    margin: 45px 160px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #350226;
+  }
+  
+  .parrafo-tratamiento {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    line-height: 40px;
+    margin: 200px 160px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #350226;
+  }
+  
+  .parrafo-manicuria {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    line-height: 40px;
+    margin: 200px 160px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #350226;
+  }
+  .video-2 {
+    margin: 50px 60px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    height: 550px;
+    width: 550px;
+  }
+  
+  .video-1 {
+    margin: 50px 60px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    height: 550px;
+    width: 550px;
+  }
+  
+  .video-3 {
+    margin: 50px 60px;
+    margin-bottom: 30px;
+    height: 550px;
+    width: 550px;
+  }
+  
+  .video-4 {
+    margin: 50px 60px;
+    margin-bottom: 50px;
+    height: 550px;
+    width: auto;
+  }
+  
+  .foto-tratamiento {
+    align-items: center;
+    margin: 20px 80px 60px 380px;
+  }
+  
+  .foto-manicuria {
+    align-items: center;
+    margin: 20px 70px;
+    margin-top: 40px;
+  }

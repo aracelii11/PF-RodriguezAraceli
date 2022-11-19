@@ -1,0 +1,84 @@
+.titulo-tienda {
+  font-family: 'Rubik Dirt', cursiva;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-shadow: 10px 10px 5px #53093d;
+}
+
+.titulo-tienda-beauty {
+  font-size: 70px;
+  color: #53093d;
+  background-color: #db70cd70;
+  margin-top: 50px;
+}
+
+.parrafo-1 {
+  text-align: center;
+  width: 50%;
+  height: 500px;
+  margin-top: 7.5rem;
+  padding: 1.25rem;
+  font-family: sans-serif;
+  color: rgb(29, 7, 49);
+  font-size: 1.25rem;
+}
+
+div.galeria {
+  margin: 0.625rem 1.25rem;
+  padding: 30px;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba 0, 0, 0, 0.19;
+  float: inline-start;
+  width: 21.875rem;
+  justify-items: center;
+  margin-left: 20px;
+  background-color: #4c0b556c;
+}
+
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #db70cd25;
+}
+
+.page-content h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 1.25rem;
+  margin-left: 70px;
+}
+
+.page-content h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 1.25rem;
+  margin-left: 40px;
+}
+
+div.galeria img {
+  width: 300px;
+  height: auto;
+}
+
+.button-comprar {
+  text-align: center;
+  width: 100%;
+  background: #350226;
+  border: none;
+  padding: 0.75rem;
+  color: white;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.precios-gal {
+  color: rgba(0, 0, 0, 0.911);
+  font-size: 18px;
+}

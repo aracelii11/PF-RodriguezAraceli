@@ -1,0 +1,1374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  height: 90px;
+}
+
+.navbar li {
+  float: left;
+  list-style-type: none;
+  height: 100px;
+}
+
+.navbar li a {
+  height: 100px;
+}
+
+.logo {
+  width: 100px;
+  height: 110px;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.514);
+  display: flex;
+  height: 6.5rem;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.navbar a:hover {
+  background-color: rgb(124, 117, 120);
+  color: #fff;
+}
+
+.navbar a {
+  display: block;
+  color: rgb(236, 233, 235);
+  text-align: center;
+  width: 11.875rem;
+  padding: 2.5rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background: linear-gradient(0deg, #db70cd 0%, #f0f0f0 100%);
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-top: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: palevioletred;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: #d87093;
+  text-align: center;
+  font-size: 1.5625rem;
+  margin: 1.25rem;
+}
+
+.descripcion {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  color: #53093d;
+  text-align: justify;
+  padding: 30px;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-shadow: 5px 5px 5px #fff;
+}
+
+.index {
+  background-image: url(../../asets/img/HAIRDRESSING-PLAYA-DE-LAS-AMERICAS.jpg);
+  background-repeat: no-repeat;
+}
+
+.titulo-index {
+  font-family: "Rubik Dirt", cursive;
+  font-size: 70px;
+  text-align: justify;
+  margin: 30px;
+  margin-left: 20px;
+  margin-top: 200px;
+  color: rgba(180, 21, 127, 0.781);
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.conteiner-peinado {
+  margin-top: 370px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(105, 38, 168, 0.521);
+}
+
+.peinados {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #350226;
+  text-align: center;
+}
+
+.peinado-1 {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.peinado-2 {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.titulo-peinado {
+  color: #1d0115;
+}
+
+.corte {
+  align-content: center;
+  margin-left: 150px;
+  margin-top: 30px;
+  border-radius: 80%;
+}
+
+.corte-1 {
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.cards .card {
+  background-color: #53093d;
+  display: flex;
+  width: 46%;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.contenido-opiniones {
+  width: 60%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.lavado {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  background-color: rgba(219, 112, 205, 0.1450980392);
+}
+
+.titulo-servicios {
+  font-size: 70px;
+  color: #53093d;
+  background-color: rgba(219, 112, 205, 0.4392156863);
+  margin-top: 50px;
+}
+
+.titulo-arah {
+  font-family: "Rubik Dirt", cursiva;
+  font-size: 50px;
+  color: rgba(180, 21, 127, 0.781);
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.titulo-lavado {
+  color: #350226;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  background-color: rgba(219, 112, 205, 0.4392156863);
+}
+
+.titulo-corte {
+  color: #350226;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  background-color: rgba(219, 112, 205, 0.4392156863);
+}
+
+.titulo-peinado {
+  color: #350226;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  background-color: rgba(219, 112, 205, 0.4392156863);
+}
+
+.titulo-coloracion {
+  color: #350226;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  background-color: rgba(219, 112, 205, 0.4392156863);
+}
+
+.titulo-tratamiento {
+  color: #350226;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  background-color: rgba(219, 112, 205, 0.4392156863);
+}
+
+.titulo-manicuria {
+  color: #350226;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  background-color: rgba(219, 112, 205, 0.4392156863);
+}
+
+.corte {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.peinado {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.coloracion {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.trtamiento {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.manicuria {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.parrafo-lavado {
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  line-height: 45px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: center;
+  color: #350226;
+}
+
+.parrafo-corte {
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  line-height: 40px;
+  margin: 45px 160px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  text-align: center;
+  color: #350226;
+}
+
+.parrafo-peinado {
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  line-height: 40px;
+  margin: 45px 160px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #350226;
+}
+
+.parrafo-coloracion {
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  line-height: 45px;
+  margin: 45px 160px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #350226;
+}
+
+.parrafo-tratamiento {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  line-height: 40px;
+  margin: 200px 160px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #350226;
+}
+
+.parrafo-manicuria {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 21px;
+  line-height: 40px;
+  margin: 200px 160px;
+  margin-top: 120px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #350226;
+}
+
+.video-2 {
+  margin: 50px 60px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  height: 550px;
+  width: 550px;
+}
+
+.video-1 {
+  margin: 50px 60px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  height: 550px;
+  width: 550px;
+}
+
+.video-3 {
+  margin: 50px 60px;
+  margin-bottom: 30px;
+  height: 550px;
+  width: 550px;
+}
+
+.video-4 {
+  margin: 50px 60px;
+  margin-bottom: 50px;
+  height: 550px;
+  width: auto;
+}
+
+.foto-tratamiento {
+  align-items: center;
+  margin: 20px 80px 60px 380px;
+}
+
+.foto-manicuria {
+  align-items: center;
+  margin: 20px 70px;
+  margin-top: 40px;
+}
+
+.titulo-arah-precios {
+  font-family: "Rubik Dirt", cursiva;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-shadow: 10px 10px 5px #53093d;
+  position: relative;
+}
+
+.titulo-precios {
+  font-size: 70px;
+  color: #53093d;
+  background-color: rgba(219, 112, 205, 0.4392156863);
+  margin-top: 50px;
+}
+
+.consulta-precios {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  color: #53093d;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px 5px #fff;
+}
+
+.abonando {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  color: #53093d;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  text-shadow: 5px 5px 5px #fff;
+}
+
+.lista-precios {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  background-color: rgba(219, 112, 205, 0.3568627451);
+  margin-right: 40px;
+  margin-top: 50px;
+}
+
+.lista-precios2 {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(219, 112, 205, 0.3568627451);
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+.lista-precios3 {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(219, 112, 205, 0.3568627451);
+  margin-left: 40px;
+}
+
+.ul-precios {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 150px 120px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #350226;
+  list-style: none;
+}
+
+.foto1-precios {
+  margin-bottom: 30px;
+}
+
+.foto2-precios {
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+
+.foto3-precios {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.ul-precios2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 150px 120px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #350226;
+  list-style: none;
+}
+
+.ul-precios3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin: 150px 120px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: #350226;
+  list-style: none;
+}
+
+.titulo-tienda {
+  font-family: "Rubik Dirt", cursiva;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-shadow: 10px 10px 5px #53093d;
+}
+
+.titulo-tienda-beauty {
+  font-size: 70px;
+  color: #53093d;
+  background-color: rgba(219, 112, 205, 0.4392156863);
+  margin-top: 50px;
+}
+
+.parrafo-1 {
+  text-align: center;
+  width: 50%;
+  height: 500px;
+  margin-top: 7.5rem;
+  padding: 1.25rem;
+  font-family: sans-serif;
+  color: rgb(29, 7, 49);
+  font-size: 1.25rem;
+}
+
+div.galeria {
+  margin: 0.625rem 1.25rem;
+  padding: 30px;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba 0, 0, 0, 0.19;
+  float: inline-start;
+  width: 21.875rem;
+  justify-items: center;
+  margin-left: 20px;
+  background-color: rgba(76, 11, 85, 0.4235294118);
+}
+
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(219, 112, 205, 0.1450980392);
+}
+
+.page-content h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 1.25rem;
+  margin-left: 70px;
+}
+
+.page-content h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 1.25rem;
+  margin-left: 40px;
+}
+
+div.galeria img {
+  width: 300px;
+  height: auto;
+}
+
+.button-comprar {
+  text-align: center;
+  width: 100%;
+  background: #350226;
+  border: none;
+  padding: 0.75rem;
+  color: white;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.precios-gal {
+  color: rgba(0, 0, 0, 0.911);
+  font-size: 18px;
+}
+
+.datos {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #350226;
+  text-align: center;
+  padding: 30px;
+  font-size: 24px;
+}
+
+.banner-contacto {
+  background-image: url(../asets/img/banner-manicura-y-pedicura-oe8jmc6cwnm70kzrtxk1g7jypftcu9ltu94lvtnna8.jpg);
+  background-repeat: no-repeat;
+}
+
+.titulo-contacto {
+  font-family: "Rubik Dirt", cursiva;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 400px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-shadow: 10px 10px 5px #53093d;
+  color: rgb(214, 101, 139);
+}
+
+.solicitar-turno {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #350226;
+  text-align: center;
+  padding: 30px;
+  font-size: 60px;
+  background-color: rgba(219, 112, 205, 0.7176470588);
+}
+
+.formulario {
+  width: 25rem;
+  background-color: #db70cd;
+  padding: 1.875rem;
+  margin: auto;
+  margin-top: 6.25rem;
+  margin-bottom: 7.5rem;
+  border-radius: 0.25rem;
+  font-family: sans-serif;
+  box-shadow: 0.4375rem 0.8125rem 2.3125rem #000;
+}
+
+.formulario h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(53, 2, 38);
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.pagos {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(53, 2, 38);
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(219, 112, 205, 0.4941176471);
+}
+
+.controls {
+  width: 100%;
+  background-color: #db70cd;
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  border: 0.0625rem solid rgb(53, 2, 38);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.125rem;
+}
+
+.botons {
+  width: 100%;
+  background: rgb(53, 2, 38);
+  border: none;
+  padding: 0.75rem;
+  color: white;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.controls {
+  width: 100%;
+  background-color: #db70cd;
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  border: 0.0625rem solid rgb(53, 2, 38);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.125rem;
+}
+
+.botons {
+  width: 100%;
+  background: rgb(53, 2, 38);
+  border: none;
+  padding: 0.75rem;
+  color: white;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.button-comprar {
+  text-align: center;
+  width: 100%;
+  background: #350226;
+  border: none;
+  padding: 0.75rem;
+  color: white;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.pie-pagina {
+  background-color: rgba(0, 0, 0, 0.541);
+  padding: 10px;
+}
+
+.red-social {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background: rgba(167, 61, 152, 0.4196078431);
+  color: #350226;
+}
+
+.red {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 160px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 35px;
+}
+
+.red-social ul li {
+  display: inline-block;
+  margin: 10px 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.red-social ul li a {
+  display: block;
+  padding: 0 10px;
+  background-color: #333;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+}
+
+.red-social ul:hover a {
+  filter: blur(2px);
+}
+
+.red-social ul li a:hover {
+  transform: translate(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+  filter: none;
+}
+
+.red-social ul li .f-fa-facebook:hover {
+  background: rgba(9, 9, 231, 0.904);
+}
+
+.red-social ul li .fa-fa-instagram:hover {
+  background: rgb(180, 17, 126);
+}
+
+.red-social ul li .fa-fa-youtube:hover {
+  background: rgb(204, 11, 11);
+}
+
+.ubicacion {
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #53093d;
+  font-size: 18px;
+}
+
+.container-datos {
+  display: flex;
+  flex-direction: row;
+  background: rgba(167, 61, 152, 0.4196078431);
+}
+
+.contacto {
+  text-align: center;
+  margin: 5px 20px 50px 160px;
+  line-height: 60px;
+  font-size: 23px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #53093d;
+}
+
+.contacto h4 {
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 100px;
+    max-width: 100%;
+  }
+  body {
+    position: relative;
+  }
+  .navbar {
+    height: 20px;
+    font-size: 16px;
+    position: relative;
+  }
+  li {
+    width: 130px;
+    height: 80px;
+  }
+  li a {
+    display: flex;
+    width: 40px;
+  }
+  .index {
+    max-width: 100%;
+    background-image: url(../../asets/img/responsive768.jpg);
+  }
+  .titulo-index {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .descripcion {
+    display: none;
+  }
+  .conteiner-peinado {
+    max-width: 100%;
+    margin-top: 140px;
+    display: block;
+    margin-bottom: 60px;
+  }
+  .peinado-2 {
+    margin-bottom: 50px;
+  }
+  .corte {
+    align-items: center;
+    margin-left: 250px;
+    margin-bottom: 30px;
+  }
+  .clientes {
+    display: none;
+  }
+  .pie-pagina {
+    max-width: 100%;
+  }
+  .mapa {
+    display: none;
+  }
+  .contacto {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 160px;
+    line-height: 40px;
+  }
+  .titulo-arah {
+    font-size: 40px;
+  }
+  .servicios-flex {
+    max-width: 100%;
+  }
+  .parrafo-lavado {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .parrafo-corte {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .parrafo-peinado {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .parrafo-coloracion {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 110px;
+  }
+  .parrafo-tratamiento {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+  .foto-tratamiento {
+    margin-left: 180px;
+    height: 350px;
+    width: 400px;
+  }
+  .corte {
+    margin-left: 40px;
+  }
+  .parrafo-manicuria {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-left: 60px;
+    margin-top: 80px;
+  }
+  .foto-manicuria {
+    height: 300px;
+  }
+  .video-1 {
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+  }
+  .video-2 {
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+  }
+  .video-3 {
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+  }
+  .video-4 {
+    height: 350px;
+    width: 350px;
+    margin-top: 30px;
+  }
+  .titulo-precios {
+    font-size: 50px;
+  }
+  .lista-precios {
+    max-width: 100%;
+  }
+  .ul-precios {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 600px;
+  }
+  .ul-precios2 {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 600px;
+  }
+  .ul-precios3 {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  .foto2-precios {
+    margin-top: 80px;
+    height: 200px;
+  }
+  .foto1-precios {
+    height: 300px;
+    width: 300px;
+    margin-right: 30px;
+    margin-top: 160px;
+  }
+  .foto3-precios {
+    height: 300px;
+    width: 300px;
+  }
+  .ul-precios li {
+    height: 35px;
+  }
+  .ul-precios2 li {
+    height: 35px;
+  }
+  .ul-precios3 li {
+    height: 35px;
+  }
+  .titulo-tienda-beauty {
+    font-size: 50px;
+  }
+  .page-content {
+    position: relative;
+  }
+  .solicitar-turno {
+    font-size: 40px;
+  }
+  .formulario {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .banner-contacto {
+    background-image: url(../../asets/img/dsBuffer.bmp.png);
+  }
+  .titulo-contacto {
+    margin-top: 230px;
+  }
+}
+@media (max-width: 412px) {
+  header {
+    height: 170px;
+  }
+  .index {
+    background-image: url(../../asets/img/banner412.jpg);
+  }
+  .navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  nav {
+    max-width: 100%;
+    width: 412px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .navbar li {
+    width: 75px;
+    height: 80px;
+    margin-right: 2px;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .navbar li a {
+    width: 75px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+  }
+  .logo {
+    display: none;
+  }
+  body {
+    position: relative;
+  }
+  .titulo-index {
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .conteiner-peinado {
+    margin-top: 10px;
+  }
+  .titulo-peinado {
+    margin-top: 10px;
+  }
+  .peinado1 {
+    margin-top: 0px;
+  }
+  .pie-pagina {
+    max-width: 100%;
+  }
+  .red {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+  .contacto {
+    text-align: center;
+    margin-left: 30px;
+  }
+  .titulo-arah {
+    font-size: 25px;
+  }
+  .titulo-servicios {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .titulo-lavado {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .lavado {
+    flex-direction: column;
+  }
+  .parrafo-lavado {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .video-1 {
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
+  }
+  .corte {
+    flex-direction: column;
+  }
+  .parrafo-corte {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .titulo-corte {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .video-2 {
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
+  }
+  .peinado {
+    flex-direction: column;
+  }
+  .titulo-peinado {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .parrafo-peinado {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .video-3 {
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
+  }
+  .coloracion {
+    flex-direction: column;
+  }
+  .parrafo-coloracion {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .video-4 {
+    height: 250px;
+    width: 250px;
+    margin-top: 30px;
+  }
+  .titulo-coloracion {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .tratamiento {
+    flex-direction: column;
+  }
+  .parrafo-tratamiento {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .titulo-tratamiento {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .foto-tratamiento {
+    margin-left: 60px;
+    height: 240px;
+    width: 300px;
+    align-items: center;
+  }
+  .manicuria {
+    flex-direction: column;
+  }
+  .titulo-manicuria {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .parrafo-manicuria {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .titulo-arah-precios {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .titulo-precios {
+    font-size: 20px;
+  }
+  .ul-precios {
+    font-size: 10px;
+    line-height: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 250px;
+    height: 300px;
+  }
+  .foto1-precios {
+    height: 150px;
+    width: 150px;
+    margin-right: 30px;
+    margin-top: 70px;
+  }
+  .ul-precios2 {
+    font-size: 10px;
+    line-height: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 80px;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 200px;
+  }
+  .foto2-precios {
+    height: 120px;
+    margin-left: 170px;
+  }
+  ul.precios3 {
+    font-size: 10px;
+    line-height: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 500px;
+    width: 250px;
+    height: 300px;
+  }
+  .foto3-precios {
+    height: 150px;
+    width: 150px;
+  }
+  .titulo-tienda {
+    font-size: 30px;
+  }
+  .titulo-tienda-beauty {
+    font-size: 25px;
+  }
+  .titulo-contacto {
+    font-size: 27px;
+    margin-top: 130px;
+  }
+  .solicitar-turno {
+    font-size: 25px;
+  }
+  .pagos {
+    font-size: 25px;
+  }
+}
+/*sass --watch scss/style.scss css/style.css*/
+@media (max-width: 576px) {
+  header {
+    max-width: 100%;
+  }
+  .logo {
+    display: none;
+  }
+  .navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  nav {
+    max-width: 100%;
+    width: 412px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .navbar li {
+    width: 75px;
+    height: 80px;
+    margin-right: 2px;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .navbar li a {
+    width: 75px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    margin-left: 2px;
+    color: black;
+    font-size: 12px;
+  }
+  .contacto {
+    text-align: center;
+    margin-left: 60px;
+  }
+  .titulo-servicios {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .titulo-lavado {
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .video-1 {
+    margin-top: 170px;
+  }
+  .parrafo-lavado {
+    margin-top: 20px;
+  }
+  .parrafo-coloracion {
+    margin-top: 15px;
+  }
+  .foto-tratamiento {
+    height: 300px;
+    width: 350px;
+    margin-left: 100px;
+    margin-right: 60px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

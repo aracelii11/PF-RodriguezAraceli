@@ -1,0 +1,117 @@
+.titulo-arah-precios {
+    font-family: 'Rubik Dirt', cursiva;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-shadow: 10px 10px 5px #53093d;
+    position: relative;
+  }
+  
+  .titulo-precios {
+    font-size: 70px;
+    color: #53093d;
+    background-color: #db70cd70;
+    margin-top: 50px;
+  }
+  .consulta-precios {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: #53093d;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px #fff
+  }
+  
+  .abonando {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: #53093d;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px 5px #fff
+  }
+  .lista-precios {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    background-color: #db70cd5b;
+    margin-right: 40px;
+    margin-top: 50px;
+  }
+  
+  .lista-precios2 {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: wrap;
+    background-color: #db70cd5b;
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .lista-precios3 {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    flex-wrap: wrap;
+    background-color: #db70cd5b;
+    margin-left: 40px;
+  }
+  
+  .ul-precios{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 150px 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #350226;
+    list-style: none;
+  }
+  .foto1-precios {
+    margin-bottom: 30px;
+  }
+  
+  .foto2-precios {
+  margin-left: 70px;
+  margin-bottom: 30px;
+  }
+  
+  .foto3-precios {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  }
+  
+  .ul-precios2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 150px 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #350226;
+    list-style: none;
+  }
+  
+  .ul-precios3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 150px 120px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #350226;
+    list-style: none;
+  }

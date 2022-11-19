@@ -1,0 +1,103 @@
+.descripcion {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: #53093d;
+    text-align: justify;
+    padding: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-shadow: 5px 5px 5px #fff
+}
+
+.index {
+    background-image: url(../../asets/img/HAIRDRESSING-PLAYA-DE-LAS-AMERICAS.jpg);
+    background-repeat: no-repeat;
+}
+
+.titulo-index {
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 70px;
+    text-align: justify;
+    margin: 30px;
+    margin-left: 20px;
+    margin-top: 200px;
+    color: rgba(180, 21, 127, 0.781);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.conteiner-peinado {
+    margin-top: 370px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(105, 38, 168, 0.521);
+  }
+  
+  .peinados {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #350226;
+    text-align: center;
+  }
+  
+  .peinado-1 {
+    margin-right: 40px;
+    margin-left: 40px;
+  
+  }
+  
+  .peinado-2 {
+    margin-right: 40px;
+    margin-left: 40px;
+    
+  }
+  
+  .titulo-peinado {
+    color: #1d0115;
+  }
+  .corte {
+    align-content: center;
+    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 80%;
+    ;
+  }
+  
+  .corte-1 {
+    margin-bottom: 30px;
+    ;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+  
+  .cards .card {
+    background-color: #53093d;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+  }
+  
+  .cards .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+  
+  }
+  
+  .contenido-opiniones {
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+  }
